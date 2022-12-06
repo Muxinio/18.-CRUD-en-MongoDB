@@ -1,0 +1,53 @@
+use ecommerce
+
+db.createCollection("mensajes")
+db.createCollection("productos")
+
+show collections 
+
+
+db.mensajes.insertOne({author: "JavierSantucho@gmail.com",text: "Hola",fecha: "5/12/2022 21:33"})
+db.mensajes.insertOne({author: "setarolucas@gmail.com",text: "Hola todo bien?",fecha: "5/12/2022 21:36"})
+db.mensajes.insertOne({author: "JavierSantucho@gmail.com",text: "Todo bien!¿Pasas a buscar la notebook?",fecha: "5/12/2022 21:40"})
+db.mensajes.insertOne({author: "setarolucas@gmail.com",text: "Salgo del trabajo a las 23hs te aviso cuando este cerca! ",fecha: "5/12/2022 21:45"})
+db.mensajes.insertOne({author: "JavierSantucho@gmail.com",text: "dale! te espero",fecha: "5/12/2022 21:40"})
+
+
+
+db.productos.insertOne({title: "Microfono", price: 120, thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Glitch_Art.jpg/220px-Glitch_Art.jpg"})
+db.productos.insertOne({title: "Mouse", price: 500, thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Glitch_Art.jpg/220px-Glitch_Art.jpg"})
+db.productos.insertOne({title: "Teclado", price: 900, thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Glitch_Art.jpg/220px-Glitch_Art.jpg"})
+db.productos.insertOne({title: "Auriculares", price: 1200, thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Glitch_Art.jpg/220px-Glitch_Art.jpg"})
+db.productos.insertOne({title: "Gabinete", price: 1700, thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Glitch_Art.jpg/220px-Glitch_Art.jpg"})
+db.productos.insertOne({title: "Monitor", price:2300, thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Glitch_Art.jpg/220px-Glitch_Art.jpg"})
+db.productos.insertOne({title: "Placa de video", price:2860, thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Glitch_Art.jpg/220px-Glitch_Art.jpg"})
+db.productos.insertOne({title: "Monitor", price:3350, thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Glitch_Art.jpg/220px-Glitch_Art.jpg"})
+db.productos.insertOne({title: "SiliconGraphics", price: 4320, thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Glitch_Art.jpg/220px-Glitch_Art.jpg"})
+db.productos.insertOne({title: "CPU GAMER", price:4990, thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Glitch_Art.jpg/220px-Glitch_Art.jpg"})
+
+
+
+
+ db.mensajes.find()
+ db.productos.find()
+ 
+
+ db.mensajes.stats().count
+ db.productos.stats().count
+
+db.productos.insertOne({title: "Gabinete Corsair Obsidian", price: 4570, thumbnail: "https://http2.mlstatic.com/D_NQ_NP_660345-MLA45823526946_052021-O.webp"})
+db.productos.find({title: "Gabinete Corsair Obsidian"})
+        i) db.productos.find({"price": {$lt: 1000}})
+        ii) db.productos.find({"price": {$gte: 1000, $lte: 3000}})
+        iii) db.productos.find({"price": {$gt: 3000}})
+	iv) db.productos.find({},{_id:0,title:1}).sort({price:1}).limit(1).skip(2) 
+
+db.createUser(
+  {
+    user: "pepe",
+    pwd: "asd456",
+    roles: [
+       { role: "read", db: "ecommerce" }
+    ]
+  }
+)

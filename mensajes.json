@@ -1,0 +1,30 @@
+{
+    "_id" : ObjectId("638e9337b294efac320040f5"),
+    "author" : "JavierSantucho@gmail.com",
+    "text" : "Hola",
+    "fecha" : "5/12/2022 21:33"
+}
+{
+    "_id" : ObjectId("638e9337b294efac320040f6"),
+    "author" : "setarolucas@gmail.com",
+    "text" : "Hola todo bien?",
+    "fecha" : "5/12/2022 21:36"
+}
+{
+    "_id" : ObjectId("638e9337b294efac320040f7"),
+    "author" : "JavierSantucho@gmail.com",
+    "text" : "Todo bien!¿Pasas a buscar la notebook?",
+    "fecha" : "5/12/2022 21:40"
+}
+{
+    "_id" : ObjectId("638e9337b294efac320040f8"),
+    "author" : "setarolucas@gmail.com",
+    "text" : "Salgo del trabajo a las 23hs te aviso cuando este cerca! ",
+    "fecha" : "5/12/2022 21:45"
+}
+{
+    "_id" : ObjectId("638e9337b294efac320040f9"),
+    "author" : "JavierSantucho@gmail.com",
+    "text" : "dale! te espero",
+    "fecha" : "5/12/2022 21:40"
+}

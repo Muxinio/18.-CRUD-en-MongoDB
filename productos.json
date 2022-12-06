@@ -1,0 +1,66 @@
+{
+    "_id" : ObjectId("638e933fb294efac320040fa"),
+    "title" : "Microfono",
+    "price" : NumberInt(120),
+    "thumbnail" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Glitch_Art.jpg/220px-Glitch_Art.jpg"
+}
+{
+    "_id" : ObjectId("638e933fb294efac320040fb"),
+    "title" : "Mouse",
+    "price" : NumberInt(500),
+    "thumbnail" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Glitch_Art.jpg/220px-Glitch_Art.jpg"
+}
+{
+    "_id" : ObjectId("638e933fb294efac320040fc"),
+    "title" : "Teclado",
+    "price" : NumberInt(900),
+    "thumbnail" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Glitch_Art.jpg/220px-Glitch_Art.jpg"
+}
+{
+    "_id" : ObjectId("638e933fb294efac320040fd"),
+    "title" : "Auriculares",
+    "price" : NumberInt(1200),
+    "thumbnail" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Glitch_Art.jpg/220px-Glitch_Art.jpg"
+}
+{
+    "_id" : ObjectId("638e933fb294efac320040fe"),
+    "title" : "Gabinete",
+    "price" : NumberInt(1700),
+    "thumbnail" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Glitch_Art.jpg/220px-Glitch_Art.jpg"
+}
+{
+    "_id" : ObjectId("638e933fb294efac320040ff"),
+    "title" : "Monitor",
+    "price" : NumberInt(2300),
+    "thumbnail" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Glitch_Art.jpg/220px-Glitch_Art.jpg"
+}
+{
+    "_id" : ObjectId("638e933fb294efac32004100"),
+    "title" : "Placa de video",
+    "price" : NumberInt(2860),
+    "thumbnail" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Glitch_Art.jpg/220px-Glitch_Art.jpg"
+}
+{
+    "_id" : ObjectId("638e933fb294efac32004101"),
+    "title" : "Monitor",
+    "price" : NumberInt(3350),
+    "thumbnail" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Glitch_Art.jpg/220px-Glitch_Art.jpg"
+}
+{
+    "_id" : ObjectId("638e933fb294efac32004102"),
+    "title" : "SiliconGraphics",
+    "price" : NumberInt(4320),
+    "thumbnail" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Glitch_Art.jpg/220px-Glitch_Art.jpg"
+}
+{
+    "_id" : ObjectId("638e933fb294efac32004103"),
+    "title" : "CPU GAMER",
+    "price" : NumberInt(4990),
+    "thumbnail" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Glitch_Art.jpg/220px-Glitch_Art.jpg"
+}
+{
+    "_id" : ObjectId("638e936db294efac32004104"),
+    "title" : "Gabinete Corsair Obsidian",
+    "price" : NumberInt(4570),
+    "thumbnail" : "https://http2.mlstatic.com/D_NQ_NP_660345-MLA45823526946_052021-O.webp"
+}
